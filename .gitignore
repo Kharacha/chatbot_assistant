@@ -1,0 +1,88 @@
+# ============================
+# GLOBAL
+# ============================
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE / WebStorm
+.idea/
+*.iml
+
+# Env files (NEVER commit secrets)
+.env
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================
+# PYTHON (backend)
+# ============================
+
+# Virtual environment
+backend/.venv/
+backend/venv/
+
+# Python cache
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python build artifacts
+.Python
+pip-wheel-metadata/
+build/
+dist/
+
+# ============================
+# NODE / VITE (frontend)
+# ============================
+
+# Node dependencies
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/
+
+# Local development stuff
+frontend/.vite/
+
+# ============================
+# SUPABASE / DEPLOY
+# ============================
+
+# Supabase local config (if ever used)
+supabase/
+
+# Railway local cache
+.railway/
+
+# ============================
+# MISC
+# ============================
+
+# ENV / temporary files
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Editor backup files
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Coverage reports
+coverage/
+coverage-final.json
+lcov-report/
